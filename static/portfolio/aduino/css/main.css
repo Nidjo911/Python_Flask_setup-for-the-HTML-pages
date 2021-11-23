@@ -1,0 +1,208 @@
+/* CSS stilovi za Aduinoshop */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    width: 70px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.search {
+    width: 100%;
+    max-width: 400px;
+    padding: 0 20px;
+}
+
+input[type=search] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid #0E84CC;
+    border-radius: 3px;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.cart-text {
+    color: #0E84CC;
+    font-size: 24px;
+    margin-left: 8px;
+}
+
+.header {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.traka {
+    display: flex;
+    margin: auto auto;
+    padding: 15px 0px 15px;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #0e84cc;
+    flex-wrap: no-wrap;
+    gap: 50px;
+
+    padding-left: max(500px);
+    padding-right: 900px;
+}
+
+.traka-item {
+    display: flex;
+}
+
+.paragraf {
+    margin-left: 25px;
+    margin-top: 50px;
+    padding-left: min(475px);
+    font-size: 14px;
+}
+
+a {
+    color: #f3f2f2;
+    text-decoration: none;
+}
+
+.proizvodi{
+    display: flex;
+    flex-wrap: no-wrap;
+
+/*    gap: 15px; */
+
+/*    width: 100%; */
+    max-width: 1201px;
+    margin-top: 20px;
+    margin-left: 500px;
+    margin-right: auto;
+/*    margin-right: 20%; */
+    height: 402px;
+
+/*    border: 1px solid blue; */
+/*   height: 98vh; */
+}
+
+.kartica {
+    display: flex;
+    flex-direction: column;
+
+    width: 380px;
+    height: 400px;
+    padding: 0px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+
+/*   background-color: red; */
+
+}
+
+#treca.kartica{
+    margin: 0;
+    padding: 0;
+}
+
+.slika-proizvoda > img {
+    width: 380px;
+    margin: 0;
+}
+
+.opis-proizvoda {
+    margin: 0;
+    padding: 0;
+    flex-basis: 0%;
+    font-size: 16px;
+
+    color: #3486eb;
+}
+
+.cijena_i_kosarica {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cijena {
+    font-size: 22px;
+}
+/*.u_kosaricu {
+    display: inline-block;
+    padding: 5px;
+    content-align: center;
+}*/
+
+.u_kosaricu {
+    display: flex;
+    align-items: center;
+
+    height: 25px;
+    width: 127px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+
+    background-color: #0E84CC;
+ /* background-size: 2px;
+    background-position: 50px; */
+    padding-left: 10px;
+}
+
+.u_kosaricu .kos_w {
+    opacity: 1;
+    position: absolute;
+    margin-left: 80px;
+    height: 20px;
+}
+
+.u_kosaricu .kos {
+    opacity: 0;
+}
+
+.u_kosaricu:hover {
+    display: flex;
+    align-items: center;
+    color: black;
+
+    gap: 20px;
+
+    height: 25px;
+    width: 127px;
+    border-radius: 10px;
+    border: solid 1px black;
+    background-color: #f1f1f1;
+ /* background-size: 2px;
+    background-position: 50px; */
+    padding-left: 10px;
+}
+
+.u_kosaricu:hover .kos_w {
+    opacity: 0;
+}
+
+.u_kosaricu:hover .kos {
+    opacity: 1;
+    position: absolute;
+    margin-left: 80px;
+    height: 20px;
+}

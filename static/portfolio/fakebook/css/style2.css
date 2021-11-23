@@ -1,0 +1,78 @@
+ h1 {
+    background-color:DodgerBlue;
+    color:White
+ }
+
+h1.header:hover{
+  opacity: 0.3;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;}
+
+ p{
+   text-align: left;
+   padding: 5px;
+ }
+
+p:hover {
+}
+
+.logo {
+    margin=10px;
+}
+
+body {
+    background-color: #F0FFF0; honeydew
+    align-content: start;
+}
+
+#fb {
+    color: black;
+    font-size: 12px;
+    margin: 5px;
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    white-space: nowrap;
+    font-family: system-ui, sans-serif;
+   ;}
+
+
+
+.pic{
+    border: 1 px;
+    border-radius: 20%;
+}
+
+
+#fb:hover {
+    background: #1E88E5;
+    color: #F8F8FF;
+    font-family: system-ui, sans-serif;
+    cursor: pointer;
+}
+
+li {
+	margin: 0;
+	padding: 0px 0 16px 56px;
+	list-style: none;
+	background-image: url("sqpurple.gif");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 25px;
+}
+
+p.dotted {border-style: dotted;}
+p strong {
+}
+
+h2 {
+    border: 2px;
+    border-line: black;
+}
+
+#orange {
+    color:orange;
+    font-weight: bold;
+}
